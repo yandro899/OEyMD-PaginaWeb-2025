@@ -1,0 +1,30 @@
+<!-- Botón de chat flotante -->
+<button type="button" class="btn btn-primary rounded-circle shadow position-fixed bottom-0 end-0 m-4" 
+        style="height: 60px; width: 60px; z-index: 1050;" data-bs-toggle="modal" data-bs-target="#chatIA">
+    <img src="/assets/images/apoyo.png" style="height: 30px; width: 30px;" alt="Chat IA">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="chatIA" tabindex="-1" aria-labelledby="chatIALabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow rounded-4">
+            <div class="modal-header border-0 bg-primary text-white rounded-top-4">
+                <h5 class="modal-title" id="chatIALabel">
+                    <strong>Preguntale a la IA</strong>
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <form method="POST">
+                    <div class="input-group">
+                        <textarea class="form-control rounded-start-3" placeholder="Escribí tu mensaje..." 
+                                  id="textarea-contact" rows="2" style="resize: none;"></textarea>
+                        <button type="submit" class="btn btn-primary rounded-end-3 px-3">
+                            <img src="/assets/images/enviar.png" alt="Enviar" width="20" height="20">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
