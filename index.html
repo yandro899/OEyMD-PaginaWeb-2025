@@ -4,6 +4,14 @@
 <head>
     <title>JuTech!</title>
     <script type="module" src="/js/main.js"></script>
+    <style>
+        .imagen-fija {
+            height: 180px;           /* Fijá el alto deseado */
+            object-fit: cover;       /* Recorta la imagen si excede */
+            object-position: center; /* Centra el contenido */
+            width: 100%;             /* Asegura el ancho completo */
+        }
+    </style>
 </head>
 
 <body>
@@ -99,6 +107,27 @@
         </div>
     </section>
     <!-- IMAGEN -->
+
+    <section class="py-5 bg-white text-center">
+        <div class="container-fluid">
+            <h2 class="mb-3 fw-bold fs-1">EQUIPOS ESPECIALIZADOS PARA USUARIOS PROFESIONALES</h2>
+            <p class="text-muted fs-4 mb-5">Rinde al máximo en tus actividades con el mejor equipo del mercado!</p>
+
+            <!-- Slider container -->
+            <div class="carousel slide" id="sliderSubCategorias" data-bs-ride="carousel">
+                <div class="carousel-inner" id="sliderSubCategoriasInner">
+                    <!-- Se cargan los items dinámicamente -->
+                </div>
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#sliderSubCategorias" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-primary rounded-circle"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sliderSubCategorias" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-primary rounded-circle"></span>
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!-- NOTICIAS -->
     <section data-bs-version="5.1" class="features03 cid-uLYVBIVC9O" id="news-1-uLYVBIVC9O">
@@ -199,9 +228,7 @@
     <section data-bs-version="5.1" class="list05 cid-uLYVBIYmAG" id="faq-3-uLYVBIYmAG">
         <div class="container">
             <div class="col-12 mb-5 content-head">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Preguntas
-                        Frecuentes</strong></h3>
-
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Preguntas Frecuentes</strong></h3>
             </div>
             <div class="row justify-content-center ">
                 <div class="col-12 col-lg-8">
@@ -267,6 +294,7 @@
     <script src="assets/vimeoplayer/player.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
+    <script type="module" src="js/index.js"></script>
 </body>
 
 </html>

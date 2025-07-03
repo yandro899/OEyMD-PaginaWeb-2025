@@ -68,6 +68,18 @@ export function getItem(id) {
     return null;
 };
 
+export function getItemsByCategoria(categoria) {
+    const [item] = productos.filter(item => item.sub_categoria.includes(categoria));
+    
+    if (item) {
+        return {
+            categoria: categoria,
+            imagen: item.imagen,
+        };
+    }
+    return null;
+};
+
 export function getItemByName(nombre) {
     const lowerNombre = nombre.toLowerCase();
     const item = productos.find(item => item.nombre.toLowerCase().includes(lowerNombre));
