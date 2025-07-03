@@ -5,5 +5,5 @@ export const integrantes = [
         rol: "Desarrollador Frontend",
         foto: "/assets/images/joaquin.jpg",
         github: "",
-    }
+    },
 ];
