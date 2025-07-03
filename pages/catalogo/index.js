@@ -119,7 +119,7 @@ function obtenerElementos(pagina = 1) {
 function crearItemElement(item) {
     // <div class="item features-image col-12 col-md-6 col-lg-3">
     const itemElement = document.createElement('div');
-    itemElement.classList.add('item', 'features-image', 'col-12', 'col-md-6', 'col-lg-3');
+    itemElement.classList.add('item', 'features-image', 'col-xxl-3', 'col-xl-3', 'col-lg-4', 'col-md-6', 'col-sm-12');
 
     // <div class="item-wrapper">
     const wrapper = document.createElement('div');

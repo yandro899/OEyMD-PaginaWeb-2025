@@ -14,7 +14,7 @@ integrantes.forEach(persona => {
                 <img src="${persona.foto}" alt="${persona.alt || persona.nombre}" title="">
             </div>
             <div class="item-content align-left">
-                <h5 class="item-title mbr-fonts-style display-5"><strong>${persona.nombre}</strong></h5>
+                <h5 class="item-title mbr-fonts-style display-5"><strong>${persona.nombre} ${persona.apellido}</strong></h5>
                 <h6 class="item-subtitle mbr-fonts-style mb-3 display-7">${persona.rol}</h6>
             </div>
         </div>
