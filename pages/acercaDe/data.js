@@ -7,6 +7,13 @@ export const integrantes = [
         github: "",
     },
     {
+        nombre: "Samuel",
+        apellido: "Paredes",
+        rol: "Desarrollador Full Stack",
+        foto: "https://virtual.unju.edu.ar/pluginfile.php/748564/user/icon/lambda/f1?rev=26181702",
+        github: "",
+    },
+    {
         nombre: "Mauro",
         apellido: "Torres",
         rol: "Desarrollador Backend",
