@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     .then(res => res.text())
     .then(html => {
       const footer = document.getElementById('footer');
-      console.log(footer);
       if (footer) footer.innerHTML = html;
     });
 

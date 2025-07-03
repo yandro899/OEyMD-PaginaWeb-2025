@@ -6,7 +6,7 @@ export const productos = [
       "sub_categoria": ["Administrativo", "Desarrollo"],
       "descripcion": "Laptop empresarial con procesador Intel/Ryzen, ideal para oficina y desarrollo.",
       "precio": 899.99,
-      "stock": 10,
+      "stock": "10",
       "imagen": "https://p2-ofp.static.pub//fes/cms/2024/04/01/ftl62xwvpojikibk3nc99l3i1epvkk200820.png",
       "especificaciones": {
         "procesador": "Intel Core i5 / Ryzen 7",

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
+
+<head>
     <title>Catalogo</title>
     <script type="module" src="/js/main.js"></script>
- </head>
+</head>
+
 <body>
     <!-- MENU -->
     <div id="header"></div>
@@ -111,12 +113,48 @@
             <div id="paginador" data-grupo="paginador" class=" pagination mt-3"></div>
         </div>
     </section>
+
+    <!-- Modal dinámico -->
+    <div class="modal fade" id="modal-producto" tabindex="-1" aria-labelledby="modal-producto-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow rounded-4 overflow-hidden">
+                <div class="modal-header bg-primary text-white border-0">
+                    <h5 class="modal-title" id="modal-producto-label"></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body row g-4 p-4" id="modal-producto-body">
+                    <!-- Se carga dinámicamente -->
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- TIENDA -->
     <div id="chatBot"></div>
     <div id="footer"></div>
 
     <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/parallax/jarallax.js"></script>
+    <script src="/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="/assets/ytplayer/index.js"></script>
+    <script src="/assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="/assets/vimeoplayer/player.js"></script>
+    <script src="/assets/theme/js/script.js"></script>
+    <script src="/assets/formoid/formoid.min.js"></script>
     <script type="module" src="index.js"></script>
+    <script>
+        const fixBody = () => {
+            document.body.classList.remove('modal-open');
+            document.body.style = '';
+            const backdrops = document.querySelectorAll('.modal-backdrop');
+            backdrops.forEach(b => b.remove());
+        };
+
+        const modalEl = document.getElementById('modal-producto');
+        if (modalEl) {
+            modalEl.addEventListener('hidden.bs.modal', fixBody);
+        }
+    </script>
 </body>
 
 </html>

@@ -54,7 +54,7 @@ function renderizarPaginacion() {
 
 function obtenerCategorias() {
     const contenedor = document.getElementById('categorias');
-    contenedor.innerHTML = ''; 
+    contenedor.innerHTML = '';
 
     const select = document.createElement('select');
     // select.onclick = () => obtenerElementos();
@@ -76,7 +76,7 @@ function obtenerCategorias() {
 function obtenerSubCategorias() {
     const contenedor = document.getElementById('subcategorias');
     contenedor.innerHTML = '';
-    
+
     const select = document.createElement('select');
     // select.onclick = () => obtenerElementos();
     select.multiple = true;
@@ -132,6 +132,7 @@ function crearItemElement(item) {
     const img = document.createElement('img');
     img.src = item.imagen;
     img.alt = item.alt || 'Imagen del producto';
+    img.classList.add('img-fluid');
     imgDiv.appendChild(img);
 
     // <div class="item-content">
@@ -149,7 +150,7 @@ function crearItemElement(item) {
     // <h6 class="item-subtitle mbr-fonts-style display-7">$25.000</h6>
     const subtitle = document.createElement('h6');
     subtitle.classList.add('item-subtitle', 'mbr-fonts-style', 'display-7');
-    subtitle.textContent = item.precio;
+    subtitle.textContent = `$${item.precio}`;
 
     // <p class="mbr-text mbr-fonts-style display-7">Descripción</p>
     const description = document.createElement('p');
@@ -166,16 +167,70 @@ function crearItemElement(item) {
     boton.textContent = 'Comprar';
     footer.appendChild(boton);
 
-    const producto = document.createElement('a');
-    footer.appendChild(producto);
+    const botonProducto = document.createElement('button');
+    botonProducto.classList.add('btn', 'btn-outline-secondary', 'ms-2');
+    botonProducto.textContent = 'Ver producto';
+    botonProducto.setAttribute('data-bs-toggle', 'modal');
+    botonProducto.setAttribute('data-bs-target', '#modal-producto');
 
-    const observarProducto = document.createElement('a');
-    footer.appendChild(observarProducto);
+    // Evento que carga el contenido dinámico
+    botonProducto.addEventListener('click', () => {
+        const datos = catalogo.getItem(item.id);
+        if (!datos) return;
 
-    // Armado del bloque
+        const modalTitle = document.getElementById('modal-producto-label');
+        const modalBody = document.getElementById('modal-producto-body');
+
+        modalTitle.textContent = datos.nombre;
+
+        const categoriaBadge = `<span class="badge bg-primary me-1">${datos.categoria}</span>`;
+        const subCategoriasBadges = (datos.sub_categoria || [])
+            .map(sub => `<span class="badge bg-secondary me-1">${sub}</span>`)
+            .join('');
+
+        const especificacionesHTML = datos.especificaciones
+            ? `<div class="mb-3">
+              <strong>Especificaciones:</strong>
+              <ul class="mb-0">
+                  ${Object.entries(datos.especificaciones).map(([k, v]) => `<li><strong>${k}:</strong> ${v}</li>`).join('')}
+              </ul>
+           </div>`
+            : '';
+
+        modalBody.innerHTML = `
+        <div class="col-md-5">
+            <img src="${datos.imagen}" alt="Imagen del producto" class="img-fluid rounded">
+        </div>
+        <div class="col-md-7">
+            <p class="mb-2"><strong>Descripción:</strong> ${datos.descripcion}</p>
+            <p class="mb-2"><strong>Precio:</strong> $${datos.precio}</p>
+            <p class="mb-2"><strong>Stock Disponible:</strong> ${datos.stock}</p>
+            ${especificacionesHTML}
+            <div class="mt-3">
+                ${categoriaBadge + subCategoriasBadges}
+            </div>
+        </div>
+    `;
+
+        const modalEl = document.getElementById('modal-producto');
+        const modal = new bootstrap.Modal(modalEl);
+        modal.show();
+    });
+
+    footer.appendChild(botonProducto);
+
+    const tags = document.createElement('div');
+    tags.classList.add('mt-3');
+    const categoriaBadge = `<span class="badge bg-primary me-1">${item.categoria}</span>`;
+    const subCategoriasBadges = (item.sub_categoria || [])
+        .map(sub => `<span class="badge bg-secondary me-1">${sub}</span>`)
+        .join('');
+    tags.innerHTML = categoriaBadge + subCategoriasBadges;
+
     content.appendChild(title);
     content.appendChild(subtitle);
     content.appendChild(description);
+    content.appendChild(tags);
     content.appendChild(footer);
 
     wrapper.appendChild(imgDiv);
@@ -183,7 +238,7 @@ function crearItemElement(item) {
     itemElement.appendChild(wrapper);
 
     return itemElement;
-};
+}
 
 function emptyFilter() {
     const categoriasSelect = document.querySelector('#categorias select');
