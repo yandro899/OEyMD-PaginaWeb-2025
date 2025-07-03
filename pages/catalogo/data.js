@@ -296,7 +296,7 @@ export const productos = [
       "descripcion": "Mouse inalámbrico ultra‑rápido, hasta 235 h de batería, 7 botones programables.",
       "precio": 72.00,
       "stock": 12,
-      "imagen": "https://us.sportsdirect.com/razer-deathadder-v2-x-hyperspeed-mouse-388455",
+      "imagen": "https://www.sportsdirect.com/images/products/38845599_l.jpg",
       "especificaciones": {
         "dpi": "14000",
         "sensor": "Focus+ 14K",
@@ -313,7 +313,7 @@ export const productos = [
       "descripcion": "Teclado mecánico gaming con switches Cherry MX y retroiluminación per‑tecla.",
       "precio": 169.99,
       "stock": 10,
-      "imagen": "https://www.corsair.com/us/en/p/keyboards/ch-9109410-na/k70-rgb-pro-mechanical-gaming-keyboard-with-pbt-double-shot-pro-keycaps-cherry-mx-red-ch-9109410-na",
+      "imagen": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Gaming-Keyboards/CH-9109410-NA/Gallery/K70_RGB_PRO_PBT_01.webp",
       "especificaciones": {
         "switches": "Cherry MX Red",
         "retroiluminacion": "RGB per‑tecla",
@@ -330,7 +330,7 @@ export const productos = [
       "descripcion": "Imagen genérica del DeathAdder V2 sacada de site review, útil para ilustración general.",
       "precio": 69.99,
       "stock": 30,
-      "imagen": "https://www.rtings.com/mouse/reviews/razer/deathadder-v2",
+      "imagen": "https://i.rtings.com/assets/products/ElJvpiyf/razer-deathadder-v2/design-medium.jpg?format=auto",
       "especificaciones": {
         "dpi": "20000",
         "sensor": "Focus+ Optical",
@@ -348,7 +348,7 @@ export const productos = [
       "descripcion": "La GPU más potente del mercado, con 24 GB GDDR6X y arquitectura Ada Lovelace.",
       "precio": 2999.99,
       "stock": 5,
-      "imagen": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/",
+      "imagen": "https://marketplace.nvidia.com/assets/images/geforce-rtx-50-series-ari.jpg",
       "especificaciones": {
         "memoria": "24 GB GDDR6X",
         "interfaz": "PCIe 4.0 x16",
@@ -364,7 +364,7 @@ export const productos = [
       "descripcion": "Tarjeta gráfica RTX 4090 con triple ventilador, overclock de fábrica y RGB.",
       "precio": 3299.99,
       "stock": 4,
-      "imagen": "https://www.amazon.com/ASUS-GeForce-Gaming-Graphics-DisplayPort/dp/B0BGT61797",
+      "imagen": "https://m.media-amazon.com/images/I/815d7TTP5UL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "memoria": "24 GB GDDR6X",
         "boost_clock": "2640 MHz",
@@ -380,7 +380,7 @@ export const productos = [
       "descripcion": "Versión robusta de la 4090 con disipador reforzado y condensadores de calidad militar.",
       "precio": 3199.99,
       "stock": 3,
-      "imagen": "https://www.amazon.com/ASUS-GeForce-Graphics-DisplayPort-TUF-RTX4090-O24G-GAMING/dp/B0BGV6LQYR",
+      "imagen": "https://m.media-amazon.com/images/I/71RFRgMnrLL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "memoria": "24 GB GDDR6X",
         "proteccion": "Backplate metálico",
@@ -396,7 +396,7 @@ export const productos = [
       "descripcion": "Tarjeta gráfica RGB con sistema de refrigeración WINDFORCE y triple ventilador.",
       "precio": 3099.99,
       "stock": 6,
-      "imagen": "https://www.amazon.com/Gigabyte-Graphics-WINDFORCE-GV-N4090GAMING-OC-24GD/dp/B0BGP8FGNZ",
+      "imagen": "https://m.media-amazon.com/images/I/711vU2IrEuL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "memoria": "24 GB GDDR6X",
         "ventiladores": 3,
@@ -412,7 +412,7 @@ export const productos = [
       "descripcion": "SSD NVMe PCIe 4.0 con velocidades de hasta 7000 MB/s, ideal para cargas pesadas.",
       "precio": 139.99,
       "stock": 20,
-      "imagen": "https://www.amazon.com/Samsung-980-PRO-1TB-PCIe/dp/B0978VB5TF",
+      "imagen": "https://m.media-amazon.com/images/I/61Mo8ug0aQS.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "capacidad": "1 TB",
         "lectura": "7000 MB/s",
@@ -428,7 +428,7 @@ export const productos = [
       "descripcion": "Tarjeta gráfica de alto rendimiento con 16 GB GDDR6X, DLSS 3 y diseño térmico optimizado.",
       "precio": 1799.99,
       "stock": 8,
-      "imagen": "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-16g-gaming-model/",
+      "imagen": "https://dlcdnwebimgs.asus.com/gain/6CEB03EC-708D-4C30-A7E1-BF77B938D1AA/w717/h525",
       "especificaciones": {
         "nucleos_cuda": 9728,
         "memoria": "16 GB GDDR6X",
@@ -445,7 +445,7 @@ export const productos = [
       "descripcion": "Tarjeta gráfica robusta con 16 GB GDDR6X, DLSS 3 y diseño duradero.",
       "precio": 1749.99,
       "stock": 10,
-      "imagen": "https://www.asus.com/latin/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4080-o16g-gaming/",
+      "imagen": "https://dlcdnwebimgs.asus.com/gain/be8f1274-7b50-45a3-a584-1ff9b91c61fe/w692",
       "especificaciones": {
         "nucleos_cuda": 9728,
         "memoria": "16 GB GDDR6X",
@@ -462,7 +462,7 @@ export const productos = [
       "descripcion": "Tarjeta gráfica con 16 GB GDDR6X, diseño de refrigeración WINDFORCE y overclock de fábrica.",
       "precio": 1699.99,
       "stock": 6,
-      "imagen": "https://www.amazon.com/NVIDIA-GeForce-4080-GDDR6X-Graphics/dp/B0BMZ9TGH1",
+      "imagen": "https://m.media-amazon.com/images/I/71m9FJCubXL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "nucleos_cuda": 9728,
         "memoria": "16 GB GDDR6X",
@@ -479,7 +479,7 @@ export const productos = [
       "descripcion": "SSD NVMe PCIe 4.0 con velocidades de lectura de hasta 7,000 MB/s, ideal para juegos y aplicaciones exigentes.",
       "precio": 319.99,
       "stock": 15,
-      "imagen": "https://www.samsung.com/es/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/",
+      "imagen": "https://images.samsung.com/is/image/samsung/p6pim/es/mz-v8p2t0bw/gallery/es-980-pro-nvme-m2-ssd-mz-v8p2t0bw-503509195?$684_547_PNG$",
       "especificaciones": {
         "capacidad": "2 TB",
         "interfaz": "PCIe 4.0 NVMe M.2",
@@ -496,7 +496,7 @@ export const productos = [
       "descripcion": "Kit de memoria RAM DDR5 de alto rendimiento con 64 GB (2x32 GB) a 5200 MHz, ideal para multitarea y aplicaciones profesionales.",
       "precio": 349.99,
       "stock": 20,
-      "imagen": "https://www.corsair.com/us/en/p/memory/cmk64gx5m2b5200c40",
+      "imagen": "https://m.media-amazon.com/images/I/61O5IUjSDSL._AC_SL1080_.jpg",
       "especificaciones": {
         "tipo": "DDR5",
         "capacidad": "64 GB (2x32 GB)",
