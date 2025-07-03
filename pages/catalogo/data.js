@@ -24,7 +24,7 @@ export const productos = [
       "descripcion": "Ultrabook premium, muy liviana, ideal para trabajo creativo y movilidad.",
       "precio": 1099.99,
       "stock": 8,
-      "imagen": "https://www.dell.com/en-us/shop/dell-laptops/xps-13-laptop/spd/xps-13-9350-intel-laptop",
+      "imagen": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9350/media-gallery/platinum/notebook-xps-13-9350-t-oled-sl-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&wid=3988&hei=2292&qlt=100,1&resMode=sharp2&size=3988,2292&chrss=full&imwidth=5000",
       "especificaciones": {
         "procesador": "Intel Core Ultra 7–9",
         "memoria_ram": "16‑32GB LPDDR5X",
