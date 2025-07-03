@@ -166,6 +166,12 @@ function crearItemElement(item) {
     boton.textContent = 'Comprar';
     footer.appendChild(boton);
 
+    const producto = document.createElement('a');
+    footer.appendChild(producto);
+
+    const observarProducto = document.createElement('a');
+    footer.appendChild(observarProducto);
+
     // Armado del bloque
     content.appendChild(title);
     content.appendChild(subtitle);
