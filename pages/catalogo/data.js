@@ -24,7 +24,7 @@ export const productos = [
       "descripcion": "Ultrabook premium, muy liviana, ideal para trabajo creativo y movilidad.",
       "precio": 1099.99,
       "stock": 8,
-      "imagen": "https://www.dell.com/en-us/shop/dell-laptops/xps-13-laptop/spd/xps-13-9350-intel-laptop",
+      "imagen": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9350/media-gallery/platinum/notebook-xps-13-9350-t-oled-sl-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=699&qlt=100,1&resMode=sharp2&size=699,402&chrss=full",
       "especificaciones": {
         "procesador": "Intel Core Ultra 7–9",
         "memoria_ram": "16‑32GB LPDDR5X",
@@ -41,7 +41,7 @@ export const productos = [
       "descripcion": "Versión actualizada del XPS 13, ideal para productividad y creatividad.",
       "precio": 1549.00,
       "stock": 6,
-      "imagen": "https://www.amazon.com/Dell-XPS-9320-Touchscreen-Thunderbolt/dp/B0C7KSPSMQ",
+      "imagen": "https://m.media-amazon.com/images/I/61kn7cyc46L.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "procesador": "Intel Core Ultra 7–9",
         "memoria_ram": "16‑32GB",
@@ -58,7 +58,7 @@ export const productos = [
       "descripcion": "Con pantalla táctil, ideal para presentaciones y uso flexible.",
       "precio": 999.99,
       "stock": 5,
-      "imagen": "https://www.bestbuy.com/site/lenovo-thinkpad-e14-gen-6-14-touch-screen-laptop-amd-ryzen-7-with-16gb-memory-512gb-ssd-black/6589820.p?skuId=6589820",
+      "imagen": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/549f9726-c93e-4329-a6d8-863199afce09.jpg;maxHeight=1080;maxWidth=900?format=webp",
       "especificaciones": {
         "procesador": "AMD Ryzen 7",
         "memoria_ram": "16GB",
@@ -75,7 +75,7 @@ export const productos = [
       "descripcion": "Workstation ligera para profesionales creativos y desarrolladores.",
       "precio": 1299.99,
       "stock": 4,
-      "imagen": "https://www.amazon.com/Lenovo-ThinkPad-P16s-Workstation-i5-1240P/dp/B0BYB48GSW",
+      "imagen": "https://m.media-amazon.com/images/I/71sxwp5iwjL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "procesador": "Intel Core i5-1240P",
         "memoria_ram": "16GB",
@@ -92,7 +92,7 @@ export const productos = [
       "descripcion": "Monitor 27\" 4K IPS Black con hub USB‑C, ideal para productividad y color preciso.",
       "precio": 639.99,
       "stock": 12,
-      "imagen": "https://www.dell.com/en-in/shop/dell-ultrasharp-27-4k-usb-c-hub-monitor-u2723qe/apd/210-bdzi/monitors-monitor-accessories", 
+      "imagen": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/u-series/u2723qe/media-gallery/monitor-u2723qe-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=1346&qlt=100,1&resMode=sharp2&size=1346,804&chrss=full",
       "especificaciones": {
         "resolucion": "3840x2160",
         "tamaño": "27\"",
@@ -109,7 +109,7 @@ export const productos = [
       "descripcion": "Misma variante disponible en Amazon, incluye soporte ergonómico.",
       "precio": 629.95,
       "stock": 10,
-      "imagen": "https://www.amazon.com/Dell-U2723QE-UltraSharp-USB-C-Monitor/dp/B09TQZP9CL",
+      "imagen": "https://m.media-amazon.com/images/I/A1Iqr2v1SIL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "resolucion": "3840x2160",
         "tamaño": "27\"",
@@ -126,7 +126,7 @@ export const productos = [
       "descripcion": "Oferta en Tech‑America con todas las funciones de la familia UltraSharp.",
       "precio": 592.00,
       "stock": 5,
-      "imagen": "https://www.tech-america.com/item/dell-ultrasharp-u2723qe-27-class-4k-uhd-lcd-monitor/dell-u2723qe",
+      "imagen": "https://www.tech-america.com/dd2/img/item/A-1500x1500/8743913-2.jpg",
       "especificaciones": {
         "resolucion": "3840x2160",
         "tamaño": "27\"",
@@ -160,7 +160,7 @@ export const productos = [
       "descripcion": "Versión del monitor con soporte ergonómico publicada en AStringo.",
       "precio": 474.99,
       "stock": 9,
-      "imagen": "https://astringo-rugged.com/shop/dell-ultrasharp-27-4k-usb-c-hub-monitor-u2723qe/",
+      "imagen": "https://astringo-rugged.com/wp-content/uploads/2023/05/U2723QE-600x457.jpg",
       "especificaciones": {
         "resolucion": "3840x2160",
         "tamaño": "27\"",
@@ -177,7 +177,7 @@ export const productos = [
       "descripcion": "Teclado mecánico inalámbrico de alta precisión con retroiluminación inteligente.",
       "precio": 169.99,
       "stock": 15,
-      "imagen": "https://www.logitech.com/en-ch/shop/p/mx-mechanical", 
+      "imagen": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-mechanical/migration-assets-for-delorean-2025/gallery/mx-mechanical-top-view-graphite-us-intl.png", 
       "especificaciones": {
         "tipo": "Mecánico, perfil bajo",
         "conectividad": "Bluetooth / Logi Bolt USB",
@@ -194,7 +194,7 @@ export const productos = [
       "descripcion": "Misma variante disponible en Amazon, ideal para productividad y estilo de oficina.",
       "precio": 179.99,
       "stock": 10,
-      "imagen": "https://www.amazon.com/Logitech-Mechanical-Illuminated-Performance-Bluetooth/dp/B0CQML97ZX",
+      "imagen": "https://m.media-amazon.com/images/I/611b2bUkuOL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "tipo": "Mecánico",
         "conectividad": "Bluetooth",
@@ -211,7 +211,7 @@ export const productos = [
       "descripcion": "Versión compacta (TKL) premium del MX Mechanical, más portátil.",
       "precio": 159.99,
       "stock": 12,
-      "imagen": "https://www.logitech.com/en-us/shop/p/mx-mechanical-mini",
+      "imagen": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-mechanical/gallery/mx-mechanical-mini/mx-mechanical-mini-keyboard-top-side-view-graphite-us.png",
       "especificaciones": {
         "tipo": "Mecánico TKL",
         "conectividad": "Bluetooth / Logi Bolt USB",
@@ -228,7 +228,7 @@ export const productos = [
       "descripcion": "Misma versión mini, disponible en Walmart, ideal para escritorios compactos.",
       "precio": 159.99,
       "stock": 8,
-      "imagen": "https://www.walmart.com/ip/Logitech-MX-Mechanical-Mini-Wireless-Illuminated-Keyboard-Clicky-Switches-Backlit-Bluetooth-USB-C-macOS-Windows-Linux-iOS-Android-Graphite/280116848",
+      "imagen": "https://i5.walmartimages.com/seo/Logitech-MX-Mechanical-Mini-Wireless-Illuminated-Keyboard-Clicky-Switches-Backlit-Bluetooth-USB-C-macOS-Windows-Linux-iOS-Android-Graphite_132c139b-0aa3-4a38-ad96-b7fdb48e4430.f8ba99dda6498a1209afcc99492db31a.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
       "especificaciones": {
         "tipo": "Mecánico TKL",
         "conectividad": "Bluetooth",
@@ -245,7 +245,7 @@ export const productos = [
       "descripcion": "Disponible en Microcenter, teclado mecánico compacto con rendimiento profesional.",
       "precio": 159.99,
       "stock": 5,
-      "imagen": "https://www.microcenter.com/product/649516/logitech-mx-mechanical-mini-illuminated-wireless-keyboard-graphite",
+      "imagen": "https://www.microcenter.com/endeca/zoomFullScreen.aspx?src=649516_408096_05_package_comping-jpg",
       "especificaciones": {
         "tipo": "Mecánico TKL",
         "conectividad": "RF Wireless",
@@ -262,7 +262,7 @@ export const productos = [
       "descripcion": "Mouse gamer ergonómico con sensor óptico 20 000 DPI y switches ópticos rápidos.",
       "precio": 69.99,
       "stock": 20,
-      "imagen": "https://www.amazon.com/Razer-DeathAdder-Wireless-Gaming-Mouse/dp/B08FQMBKQG",
+      "imagen": "https://m.media-amazon.com/images/I/61C3xYVKtZL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "dpi": "20000",
         "sensor": "Focus+ Optical",
@@ -279,7 +279,7 @@ export const productos = [
       "descripcion": "Versión con cable del famoso DeathAdder V2, rendimiento profesional en juegos.",
       "precio": 59.99,
       "stock": 18,
-      "imagen": "https://www.amazon.com/Razer-DeathAdder-Gaming-Mouse-Programmable/dp/B082G5SPR5",
+      "imagen": "https://m.media-amazon.com/images/I/41iLtLRTsZL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       "especificaciones": {
         "dpi": "20000",
         "sensor": "Focus+ Optical",
@@ -513,7 +513,7 @@ export const productos = [
       "descripcion": "Unidad flash USB 3.2 de alta velocidad, ideal para transferencia rápida de archivos.",
       "precio": 29.99,
       "stock": 50,
-      "imagen": "https://www.sandisk.com/home/usb-flash/extreme-pro-usb-3-2",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_802177-MLA84850885283_052025-O.webp",
       "especificaciones": {
         "capacidad": "128 GB",
         "velocidad_lectura": "420 MB/s",
@@ -529,7 +529,7 @@ export const productos = [
       "descripcion": "Disco duro externo portátil con alta capacidad y velocidad USB 3.0.",
       "precio": 69.99,
       "stock": 40,
-      "imagen": "https://www.seagate.com/products/portable-drives/backup-plus-slim/",
+      "imagen": "https://m.media-amazon.com/images/I/51mJmWpAMIL._AC_UF894,1000_QL80_.jpg",
       "especificaciones": {
         "capacidad": "2 TB",
         "velocidad_lectura": "hasta 120 MB/s",
@@ -545,7 +545,7 @@ export const productos = [
       "descripcion": "Cámara web HD 1080p con enfoque automático y micrófono estéreo dual.",
       "precio": 79.99,
       "stock": 30,
-      "imagen": "https://www.logitech.com/en-us/products/webcams/c920-hd-pro-webcam.960-001055.html",
+      "imagen": "https://resource.logitech.com/w_800,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/video-conferencing/c925e/gallery/c925e-gallery-1.png?v=1",
       "especificaciones": {
         "resolucion": "1080p Full HD",
         "fps": 30,
@@ -561,7 +561,7 @@ export const productos = [
       "descripcion": "Controlador con 15 teclas LCD personalizables para streamers y creadores de contenido.",
       "precio": 149.99,
       "stock": 25,
-      "imagen": "https://www.elgato.com/en/stream-deck",
+      "imagen": "https://res.cloudinary.com/elgato-pwa/image/upload/pg_name:10GBA9901;10GBA9901/f_auto/q_auto:best/v1746629172/2025/Stream%20Deck%20Classic/01_ATF/01_ATF_static_Desktop.psd",
       "especificaciones": {
         "teclas": 15,
         "conectividad": "USB 2.0",
@@ -576,7 +576,7 @@ export const productos = [
       "descripcion": "Micrófono USB de alta calidad con patrones polares múltiples y control de ganancia.",
       "precio": 129.99,
       "stock": 20,
-      "imagen": "https://www.bluemic.com/en-us/products/yeti/",
+      "imagen": "https://resource.logitechg.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/plp-microphones/pdp-yeti-orb-gaming-microphone/yeti-orb-gallery-1.png?v=1",
       "especificaciones": {
         "patrones_polares": ["Cardioide", "Omnidireccional", "Bidireccional", "Estéreo"],
         "conectividad": "USB",
@@ -591,7 +591,7 @@ export const productos = [
       "descripcion": "Batería portátil compacta de 10,000 mAh con carga rápida.",
       "precio": 25.99,
       "stock": 60,
-      "imagen": "https://www.anker.com/products/variant/powercore-10000/A1263011",
+      "imagen": "https://cdn-xiaomi.waugi.com.ar/1170-home_default/cargador-portatil-power-bank-3-xiaomi-fast-charge-ultra-compact-10000mah-.jpg",
       "especificaciones": {
         "capacidad": "10,000 mAh",
         "salida": "5V/2.4A",
@@ -607,7 +607,7 @@ export const productos = [
       "descripcion": "Disco duro externo portátil con cifrado automático y respaldo automático.",
       "precio": 89.99,
       "stock": 35,
-      "imagen": "https://www.westerndigital.com/products/portable-drives/my-passport-usb-3-0-hdd",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_do_utq6n8xP4lqN7xrcjSF8ZGe3TCmq6Vw&s",
       "especificaciones": {
         "capacidad": "4 TB",
         "conectividad": "USB 3.0",
