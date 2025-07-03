@@ -7,7 +7,7 @@ export const productos = [
       "descripcion": "Laptop empresarial con procesador Intel/Ryzen, ideal para oficina y desarrollo.",
       "precio": 899.99,
       "stock": 10,
-      "imagen": "https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpade/lenovo-thinkpad-e14-gen-6-14-inch-intel/len101t0087",
+      "imagen": "https://p2-ofp.static.pub//fes/cms/2024/04/01/ftl62xwvpojikibk3nc99l3i1epvkk200820.png",
       "especificaciones": {
         "procesador": "Intel Core i5 / Ryzen 7",
         "memoria_ram": "16GB",
