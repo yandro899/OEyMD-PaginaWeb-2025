@@ -1484,6 +1484,331 @@ export const productos = [
         "puertos_ethernet": 5
       }
     },
+    {
+      "id": 91,
+      "nombre": "Wacom Cintiq 16",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Desarrollo"],
+      "descripcion": "Tableta gráfica con pantalla Full HD de 15.6 pulgadas, ideal para ilustración y edición profesional.",
+      "precio": 649.99,
+      "stock": 10,
+      "imagen": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq",
+      "especificaciones": {
+        "pantalla": "15.6\" Full HD",
+        "tipo_lapiz": "Wacom Pro Pen 2",
+        "niveles_presion": 8192,
+        "conectividad": ["HDMI", "USB-A"]
+      }
+    },
+    {
+      "id": 92,
+      "nombre": "Huion Kamvas Pro 16 (2.5K)",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico"],
+      "descripcion": "Tableta con pantalla QHD, lápiz sin batería y laminación completa para dibujo profesional.",
+      "precio": 499.99,
+      "stock": 12,
+      "imagen": "https://store.huion.com/products/kamvas-pro-16-2-5k",
+      "especificaciones": {
+        "pantalla": "15.6\" QHD (2560x1440)",
+        "tipo_lapiz": "PW517",
+        "niveles_presion": 8192,
+        "ángulo_inclinación": "±60°",
+        "conectividad": ["USB-C", "HDMI"]
+      }
+    },
+    {
+      "id": 93,
+      "nombre": "XP-Pen Artist Pro 16TP",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Streaming"],
+      "descripcion": "Tableta con pantalla multitáctil 4K UHD y soporte completo para apps creativas.",
+      "precio": 899.99,
+      "stock": 7,
+      "imagen": "https://www.xp-pen.com/product/754.html",
+      "especificaciones": {
+        "pantalla": "15.6\" 4K UHD",
+        "tipo_lapiz": "PA6 sin batería",
+        "táctil": true,
+        "niveles_presion": 8192,
+        "conectividad": ["USB-C", "HDMI"]
+      }
+    },
+    {
+      "id": 94,
+      "nombre": "Gaomon PD1560",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico"],
+      "descripcion": "Pantalla interactiva de 15.6 pulgadas con soporte ajustable y 10 teclas de acceso rápido.",
+      "precio": 319.99,
+      "stock": 18,
+      "imagen": "https://www.gaomon.net/Pen_Display/PD1560.html",
+      "especificaciones": {
+        "pantalla": "15.6\" Full HD",
+        "teclas_funcion": 10,
+        "tipo_lapiz": "Recargable",
+        "niveles_presion": 8192,
+        "conectividad": ["HDMI", "USB"]
+      }
+    },
+    {
+      "id": 95,
+      "nombre": "Wacom Intuos Pro Medium",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Desarrollo"],
+      "descripcion": "Tableta sin pantalla con área activa grande y lápiz sensible a presión para diseño profesional.",
+      "precio": 379.99,
+      "stock": 20,
+      "imagen": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+      "especificaciones": {
+        "area_activa": "224 x 148 mm",
+        "tipo_lapiz": "Pro Pen 2",
+        "niveles_presion": 8192,
+        "conectividad": ["Bluetooth", "USB"]
+      }
+    },
+    {
+      "id": 96,
+      "nombre": "X-Rite i1Display Pro",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico"],
+      "descripcion": "Calibrador de monitores profesional para asegurar precisión de color en pantallas.",
+      "precio": 269.99,
+      "stock": 15,
+      "imagen": "https://www.xrite.com/categories/calibration-profiling/i1display-pro",
+      "especificaciones": {
+        "tipo": "Calibrador de color",
+        "compatibilidad": ["Windows", "macOS"],
+        "pantallas_soportadas": ["LED", "LCD", "OLED"],
+        "software_incluido": "i1Profiler"
+      }
+    },
+    {
+      "id": 97,
+      "nombre": "ColorChecker Passport Photo 2",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Fotografía"],
+      "descripcion": "Herramienta de referencia de color portátil para calibración en sesiones fotográficas.",
+      "precio": 139.99,
+      "stock": 10,
+      "imagen": "https://www.xrite.com/categories/calibration-profiling/colorchecker-passport-photo-2",
+      "especificaciones": {
+        "tipo": "Target de color",
+        "uso": "Calibración de cámara y edición RAW",
+        "material": "Plástico resistente con estuche rígido",
+        "compatibilidad": "Cámaras DSLR y mirrorless"
+      }
+    },
+    {
+      "id": 98,
+      "nombre": "Eizo ColorEdge CS2740",
+      "categoria": "Monitores",
+      "sub_categoria": ["Diseño Gráfico", "Desarrollo"],
+      "descripcion": "Monitor profesional 27\" 4K con calibración de fábrica y excelente precisión de color.",
+      "precio": 2299.99,
+      "stock": 5,
+      "imagen": "https://www.eizoglobal.com/products/coloredge/cs2740/index.html",
+      "especificaciones": {
+        "resolucion": "3840 x 2160 (4K UHD)",
+        "pantalla": "27 pulgadas IPS",
+        "gama_color": "99% AdobeRGB",
+        "conectividad": ["USB-C", "HDMI", "DisplayPort"]
+      }
+    },
+    {
+      "id": 99,
+      "nombre": "Shining 3D EinScan-SE V2",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Desarrollo"],
+      "descripcion": "Escáner 3D de escritorio para modelado digital, ideal para diseño industrial y arte digital.",
+      "precio": 1199.99,
+      "stock": 4,
+      "imagen": "https://www.shining3d.com/einscan-se/",
+      "especificaciones": {
+        "resolucion_3d": "0.1 mm",
+        "tipo_escaneo": "Luz estructurada",
+        "velocidad_escaneo": "8 segundos (modo automático)",
+        "exportacion": ["OBJ", "STL", "PLY"]
+      }
+    },
+    {
+      "id": 100,
+      "nombre": "BenQ ScreenBar Plus",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Diseño Gráfico", "Administrativo"],
+      "descripcion": "Lámpara de escritorio para monitores con ajuste automático de brillo y temperatura de color.",
+      "precio": 129.99,
+      "stock": 22,
+      "imagen": "https://www.benq.com/en-us/lamps/computer-desklamp/screenbar-plus.html",
+      "especificaciones": {
+        "tipo": "Lámpara LED para monitor",
+        "control": "Dial con sensor",
+        "brillo": "2700K – 6500K",
+        "alimentacion": "USB"
+      }
+    },
+    {
+      "id": 101,
+      "nombre": "Focusrite Scarlett 2i2 (3rd Gen)",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Streaming"],
+      "descripcion": "Interfaz de audio USB con dos entradas combo XLR/Jack y calidad de grabación profesional.",
+      "precio": 179.99,
+      "stock": 20,
+      "imagen": "https://focusrite.com/en/audio-interface/scarlett/scarlett-2i2",
+      "especificaciones": {
+        "entradas": "2x XLR/TRS combo",
+        "salidas": "2x TRS balanceadas",
+        "alimentacion": "USB",
+        "resolucion": "24-bit / 192kHz"
+      }
+    },
+    {
+      "id": 102,
+      "nombre": "Akai MPK Mini MK3",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Diseño Gráfico"],
+      "descripcion": "Controlador MIDI compacto con 25 teclas, pads sensibles y knobs asignables.",
+      "precio": 119.99,
+      "stock": 35,
+      "imagen": "https://www.akaipro.com/mpk-mini-mk3",
+      "especificaciones": {
+        "teclas": 25,
+        "pads": "8 RGB retroiluminados",
+        "knobs": "8 rotativos",
+        "conectividad": "USB-MIDI"
+      }
+    },
+    {
+      "id": 103,
+      "nombre": "Audio-Technica ATH-M50x",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Streaming"],
+      "descripcion": "Auriculares de monitoreo profesional con excelente respuesta de frecuencia.",
+      "precio": 149.99,
+      "stock": 40,
+      "imagen": "https://www.audio-technica.com/en-us/ath-m50x",
+      "especificaciones": {
+        "tipo": "Cerrado, circumaural",
+        "frecuencia": "15 – 28,000 Hz",
+        "impedancia": "38 ohmios",
+        "cables_incluidos": ["1.2 m", "3 m enrollado", "3 m recto"]
+      }
+    },
+    {
+      "id": 104,
+      "nombre": "PreSonus Eris E3.5",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Desarrollo"],
+      "descripcion": "Monitores de estudio activos de campo cercano con respuesta precisa para mezcla.",
+      "precio": 99.99,
+      "stock": 28,
+      "imagen": "https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=850/https://www.fmicassets.com/Damroot/eCommPNG/10010/2777500101_pre_mon_frt_1_nr.png",
+      "especificaciones": {
+        "tipo": "Monitores activos",
+        "potencia": "25 W por altavoz",
+        "conectividad": ["TRS", "RCA", "AUX"],
+        "frecuencia": "80 Hz – 20 kHz"
+      }
+    },
+    {
+      "id": 105,
+      "nombre": "Novation Launchpad Mini MK3",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical"],
+      "descripcion": "Controlador MIDI por pads para Ableton Live con retroiluminación RGB.",
+      "precio": 109.99,
+      "stock": 18,
+      "imagen": "https://cdn11.bigcommerce.com/s-itgb7ssiy1/images/stencil/960w/products/186/385/LKMini-Overhead-2400-x-2400-compressed__35500.1678352678.png?c=1",
+      "especificaciones": {
+        "pads": "64 RGB sensibles al tacto",
+        "modo": "Ableton Live",
+        "conectividad": "USB-C",
+        "software_incluido": ["Ableton Live Lite", "Soundpacks"]
+      }
+    },
+    {
+      "id": 106,
+      "nombre": "Behringer UMC22",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical"],
+      "descripcion": "Interfaz de audio USB económica con preamplificador MIDAS y baja latencia para grabaciones caseras.",
+      "precio": 59.99,
+      "stock": 25,
+      "imagen": "https://www.behringer.com/product.html?modelCode=P0AUX",
+      "especificaciones": {
+        "entradas": "1x XLR/TRS combo, 1x TRS",
+        "salidas": "2x RCA",
+        "resolucion": "48 kHz / 24-bit",
+        "alimentacion": "USB"
+      }
+    },
+    {
+      "id": 107,
+      "nombre": "Shure SM7B",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Streaming"],
+      "descripcion": "Micrófono dinámico de calidad profesional, ideal para voces, locución y podcast.",
+      "precio": 399.99,
+      "stock": 12,
+      "imagen": "https://www.shure.com/en-US/products/microphones/sm7b",
+      "especificaciones": {
+        "tipo": "Micrófono dinámico cardioide",
+        "respuesta_frecuencia": "50 Hz – 20 kHz",
+        "impedancia": "150 ohmios",
+        "conector": "XLR"
+      }
+    },
+    {
+      "id": 108,
+      "nombre": "Arturia MiniLab 3",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical"],
+      "descripcion": "Controlador MIDI portátil con 25 teclas sensibles, 8 pads y software creativo incluido.",
+      "precio": 109.99,
+      "stock": 20,
+      "imagen": "https://www.arturia.com/products/hybrid-synths/minilab-3/overview",
+      "especificaciones": {
+        "teclas": 25,
+        "pads": "8 retroiluminados RGB",
+        "knobs": "8 + 4 faders táctiles",
+        "conectividad": "USB-C, MIDI Out",
+        "software_incluido": ["Analog Lab Intro", "Ableton Live Lite"]
+      }
+    },
+    {
+      "id": 109,
+      "nombre": "Zoom H6 Handy Recorder",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical", "Streaming"],
+      "descripcion": "Grabadora portátil de 6 pistas con cápsulas intercambiables, ideal para campo y estudio.",
+      "precio": 349.99,
+      "stock": 10,
+      "imagen": "https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6/",
+      "especificaciones": {
+        "canales_grabacion": 6,
+        "entradas": "4x XLR/TRS combo + cápsula XY",
+        "formato": ["WAV", "MP3"],
+        "almacenamiento": "Tarjeta SD (hasta 128 GB)"
+      }
+    },
+    {
+      "id": 110,
+      "nombre": "KRK Rokit 5 G4",
+      "categoria": "Dispositivos Generales",
+      "sub_categoria": ["Producción Musical"],
+      "descripcion": "Monitor de estudio activo de 5” con ecualizador gráfico y respuesta balanceada.",
+      "precio": 179.99,
+      "stock": 14,
+      "imagen": "https://www.krkmusic.com/Studio-Monitors/ROKIT-5-G4",
+      "especificaciones": {
+        "tamaño_driver": "5\"",
+        "potencia": "55W",
+        "frecuencia": "43Hz – 40kHz",
+        "conectividad": "TRS / XLR balanceado",
+        "pantalla": "LCD para EQ gráfico"
+      }
+    }
 ];
 
 export const categorias = [
@@ -1500,5 +1825,6 @@ export const sub_categorias = [
     "Streaming",
     "Diseño Gráfico",
     "Administrativo",
-    "Hogar Inteligente"
+    "Hogar Inteligente",
+    "Producción Musical"
 ];
